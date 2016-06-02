@@ -1,0 +1,273 @@
+body {
+  background: linear-gradient(FireBrick, black) no-repeat;
+  margin: 0;
+  height: 100%;
+  background-size: contain;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.wrapper {
+  border-width: 1440px;
+  border-style: none;
+}
+
+audio {
+  position: fixed;
+  z-index: 100;
+}
+
+.vertical-text {
+  float: left;
+  position: relative;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+
+/* Header Layout */
+
+header {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.header-img {
+  height: 100%;
+  margin-top: -2%;
+  max-height: 900px;
+  width: inherit;
+  background-size: cover;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+.cactus-top {
+  display: inline-block;
+  margin: 0 auto;
+  height: 30%;
+  width: 30%;
+  margin-bottom: -40%;
+  z-index: 100;
+}
+
+/* Navigation */
+
+nav {
+  width: 100%;
+}
+
+ul {
+  color: white;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 20px;
+  height: 85px;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: -85px;
+}
+
+li {
+  float: left;
+  margin: 30px 115px;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+a:link {
+  text-decoration: none;
+  color: PowderBlue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: PowderBlue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: Chocolate;
+}
+
+a:active {
+  text-decoration: none;
+  color: Chocolate;
+}
+
+/* clear float*/
+
+.clear {
+  clear: both;
+}
+
+/*article align */
+
+.article {
+  color: PowderBlue;
+  font-size: 20px;
+  float: left;
+  padding-left: 200px;
+  padding-top: 60px;
+}
+
+/* The Music */
+
+.first-p {
+  display: inline;
+  position: relative;
+  float: left;
+  color: white;
+  max-width: 660px;
+  padding-top: 116px;
+  margin-left: -135px;
+}
+
+.the-music {
+  float: right;
+  position: relative;
+  width: 195px;
+  height: auto;
+  padding-right: 200px;
+  padding-top: 50px;
+}
+
+.music-article {
+  color: PowderBlue;
+  font-size: 60px;
+  float: left;
+  padding-left: 200px;
+  padding-top: 365px;
+  margin-right: -80px;
+}
+/* The Members */
+
+.members-aidan, .members-david, .members-kabir, .members-kai, .members-ezra {
+  max-width: 300px;
+}
+
+.members-aidan, .members-david {
+  float: left;
+  position: relative;
+}
+
+.members-aidan {
+  padding-top: 110px;
+  margin-left: -315px;
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.members-david {
+  padding-top: 110px;
+  margin-bottom: 40px;
+}
+
+.members-kabir {
+  float: right;
+  position: relative;
+  padding-right: 213px;
+  padding-top: 87px;
+  margin-bottom: 40px;
+}
+
+.members-kai {
+  float: left;
+  position: relative;
+  margin-top: 440px;
+  padding-right: 0px;
+  margin-left: -454px;
+  z-index: 10;
+}
+
+.members-ezra {
+  float: right;
+  position: relative;
+  z-index: 20;
+  margin-right: 365px;
+  margin-top: 13px;
+}
+
+.members-article {
+  color: PowderBlue;
+  font-size: 60px;
+  float: left;
+  margin-left: -225px;
+  padding-top: 770px;
+}
+/* The History */
+
+.banner {
+  padding-top: 70px;
+}
+
+.history-title {
+  color: PowderBlue;
+  font-size: 60px;
+  float: left;
+  padding-left: 190px;
+  padding-top: 415px;
+}
+
+.history {
+
+  display: inline;
+  position: relative;
+  float: left;
+  color: white;
+  max-width: 600px;
+  text-align: left;
+  margin-left: -260px;
+  margin-top: 172px;
+}
+
+/* Social Media */
+
+.sm-title {
+  color: PowderBlue;
+  font-size: 60px;
+  float: right;
+  padding-top: 417px;
+  margin-right: 155px;
+}
+
+.facebook {
+  max-height: 100px;
+  padding-top: 20px;
+  padding-left: 117px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.twitter {
+  max-height: 100px;
+  padding-bottom: 30px;
+}
+
+.instagram {
+  max-height: 100px;
+  padding-top: 20px;
+  padding-left: 117px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+
+.soundcloud {
+  max-height: 100px;
+  padding-bottom: 50px;
+}
+
+aside  {
+  margin-top: -410px;
+}
+
+/* Footer */
+
+.footer {
+  color: rgba(225,225,225,0.5);
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 450px;
+  background-color: rgba(178,34,34,0.5);
+}
